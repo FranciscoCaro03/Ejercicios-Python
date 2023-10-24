@@ -7,3 +7,9 @@ introducir su nombre combinando mayúsculas y minúsculas como quiera.
 """
 
 nombre = input("Introduce tu nombre:")
+print(nombre.upper())
+print(nombre.lower())
+nombre_completo = nombre.split(" ")
+nombre_completo[0].lower()
+nombre_completo[1].lower()
+print(nombre_completo[0].capitalize()+ " " +nombre_completo[1].capitalize())
