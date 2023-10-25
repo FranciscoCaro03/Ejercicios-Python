@@ -6,4 +6,11 @@ introducida en mayúscula.
 
 cadena = input("Introduce una cadena de texto:\n")
 vocal = input("Introduce una vocal\n")
+final = ""
 
+for x in cadena:
+    if x == vocal:
+        x = x.upper()
+    final += x
+
+print(final)
