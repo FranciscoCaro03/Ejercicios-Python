@@ -6,4 +6,4 @@ separados por comas.
 
 numero = int(input("Introduce un numero positivo:\n"))
 for x in range(numero, -1, -1):
-    print(x)
+    print(x, end=", ")
