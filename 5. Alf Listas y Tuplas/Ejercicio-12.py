@@ -5,8 +5,11 @@ mediante listas usar listas anidadas, representando cada vector
 fila en una lista.
 """
 
-matriz1 = [[1, 2, 3], [4, 5, 6]]
-matriz2 = [[-1, 0], [0, 1], [1, 1]]
+matriz1 = [[1, 2, 3],
+           [4, 5, 6]]
+matriz2 = [[-1, 0],
+           [0, 1],
+           [1, 1]]
 mfinal = [[], []]
 e11 = 0
 e12 = 0
